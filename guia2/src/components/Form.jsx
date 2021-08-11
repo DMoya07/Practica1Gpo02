@@ -4,9 +4,9 @@ import Todo from '../components/Todo'
 const Form = () => {
     const [todo, setTodo] = useState({})
     const [todos, setTodos] = useState([
-        {todo: 'todo 1'},
-        {todo: 'todo 2'},
-        {todo: 'todo 3'}
+        {todo: 'Manzanas'},
+        {todo: 'Gaseosas'},
+        {todo: 'Detergentes'}
     ])
     const handleChange = e => setTodo({[e.target.name]: e.target.value})
     const handleClick = e => {
