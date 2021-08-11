@@ -3,6 +3,7 @@ import Todo from '../components/Todo'
 
 const Form = () => {
     const [todo, setTodo] = useState({})
+    const [numero, setNumero] = useState({})
     const [todos, setTodos] = useState([
         {todo: 'Manzanas'},
         {todo: 'Gaseosas'},
